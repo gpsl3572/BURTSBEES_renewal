@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    word-break: keep-all;
+}
+
+.wrap{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+header, section, footer{
+    float: left;
+    position: relative;
+    width: 100%;
+    background-color: fefeff;
+}
+
+.in_header, .container, .in_footer{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: rgb(197, 158, 153); */
+}
+
+img{width: 100%;}
+
+@media (max-width:759px){
+
+    .in_header, .container, .in_footer{
+        width: 95%;
+    }
+
+}

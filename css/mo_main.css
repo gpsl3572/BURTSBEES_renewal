@@ -1,0 +1,240 @@
+@media (max-width:759px){
+
+    .logo{
+        width: 37%;
+    }
+
+    .pop_menu_wrap{
+        float: right;
+        width: 80vw;
+        height: 100vh;
+        background-color:#fcbe44;
+        font-size: 35px;
+        font-weight: 900;
+        color: #fff;
+    }
+    
+    .menu_wrap{
+        padding: 37% 0 0 13%;
+    }
+    
+    .menu{
+        margin-bottom: 20%;
+    }
+    
+    /* ----------------------header end------------ */
+
+    #sec_1{
+        position: absolute;
+        top: 70%; left: -1.5%;
+        width: /*1400px*/100%;
+        z-index: 10;
+    }
+
+    .burt{
+        width: 80vw;
+        margin: 0 auto;
+        transform: translateY(25%);
+        opacity: .2;
+    }
+    
+    .bees1{
+        width: 12vw;
+        position: absolute;
+        z-index: 11;
+        top: 107%; right: -10%;
+        animation: mbees1 1.5s ease forwards 4.8s;
+    }
+    
+    .bees2{
+        width: 12vw;
+        position: absolute;
+        z-index: 11;
+        top: 107%; left: -10%;
+        animation: mbees2 1.5s ease forwards 5s;
+    }
+
+    @keyframes mbees1{
+        100%{ top: 33%; right: 80%; }
+    }
+    
+    @keyframes mbees2{
+        100%{ top: 60%; left: 75%; }
+    }
+    
+ /* --------------sec_1 end ------------------------- */
+
+ .section_3{
+     height: 330vh;
+ }
+
+ .title_3{
+    width: 100%;
+    padding: 80px 0;
+    font-size: 6vw;
+    font-weight:900;
+    line-height: 60px;
+    text-align: center;
+    left: 0;
+}
+
+
+.title_3 span{
+    color: #d1202f;
+    letter-spacing: 0;
+    font-size: 11vw;
+}
+
+.con_box{
+    width: 95vw;
+    height: 57vh;
+    background-color: #fcbe44;
+    position: relative;
+    left: 0; margin-bottom: 30px;
+}
+
+.con, .img_box_hov{
+    background-color: #fcbe44;
+}
+
+.text_box{
+    height: 10vh;
+}
+
+
+.con2{
+    top: 54vh;
+}
+.con3{
+    top: 65vh;
+}
+.con4{
+    top: 76vh;
+}
+
+.img_box_hov{
+    display: block;
+}
+
+.text_box{
+    height: 60px;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.right_move{
+    margin-left: 5%;
+}
+
+
+.right_move{
+    animation: mright_moves 1s ease-out infinite alternate;
+}
+
+@keyframes mright_moves{
+    100%{margin-left: 25%;}
+}
+
+/* --------------section_3 end ------------------------------------ */
+
+.text_box4{
+    width: 50vw;
+    height: 140px;
+    margin: 40% auto;
+    text-align: center;
+}
+
+.text4{
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 50px;
+    line-height: 80px;
+}
+
+.tag{
+    font-size: 20px;
+}
+
+.beess{
+    width: 15vw;
+    position: absolute;
+    display: block;
+}
+.beess1{
+    top: 30%; right: 10%;
+}
+
+.beess2{
+    bottom: 30%; left: 10%;
+}
+
+/* --------------------sectin4 _ end ---------------------- */
+
+.f_title{
+    height: 20vh;
+}
+
+.f_title p{
+    font-size: 9vw;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.footcon_wrap{
+    flex-direction:column;
+}
+
+.foot_con{
+    width: 100%;
+}
+
+.foot_textwrap{
+    padding-top: 3vh;
+    padding-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+.f_text1{
+    font-size: 6vw;
+}
+
+.copy{
+    font-size: 5px;
+    margin-top: 2vh;
+    line-height: 13px;
+    color: rgb(160, 160, 160);
+    letter-spacing: -0.5px;
+}
+
+.sns{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.sns li{
+    width: 40px;
+    height: 40px;
+}
+
+.sns li i{
+    font-size: 25px;
+    color: #fff;
+}
+
+.f_text2{
+    font-size: 5vh;
+    font-weight: 900;
+    line-height: 5vh;
+    letter-spacing: -1px;
+    margin-top: 30px;
+}
+
+.top_btn{
+ display: none;
+}
+
+/* media end  */
+}
